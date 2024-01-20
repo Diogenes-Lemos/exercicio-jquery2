@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <section id="cadastro">
+        <form>
+            <div class="input">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="input">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="input">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXX-XXXX">
+            </div>
+            <div class="input">
+                <label for="CPF">CPF:</label>
+                <input type="text" id="CPF" name="CPF" placeholder="XXX-XXX-XXX-XX">
+            </div>
+            <div class="input">
+                <label for="CEP">CEP:</label>
+                <input type="text" id="CEP" name="CEP" placeholder="XXXXX-XXX">
+            </div>
+            <div class="input" id="endereco">
+                <label for="logradouro">Logradouro:</label>
+                <input type="Text" id="logradouro" name="logradouro">
+                <label for="numero">N°:</label>
+                <input type="number" id="numero" name="numero">
+                <label for="municipio">Municipio:</label>
+                <input type="Text" id="municipio" name="municipio">
+                <label for="estado">Estado:</label>
+                <input type="Text" id="estado" name="estado">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./plugins/jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

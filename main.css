@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #363636, #000000);
+}
+
+h1 {
+    width: 1280px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+#cadastro {
+    width: 1180;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input #nome,
+.input #email,
+.input #telefone {
+    width: 590px;
+}
+
+.input #email {
+    margin-left: 70px;
+}
+
+.input #telefone {
+    margin-left: 53px;
+}
+
+.input #CPF,
+.input #CEP {
+    margin-left: 82px;
+    width: 290px;
+   
+}
+
+form #endereco {
+    margin-bottom: 30px;
+}
+
+.input #logradouro {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.input #numero,
+.input #estado {
+    width: 50px;
+}
+
+form button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 25px;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
